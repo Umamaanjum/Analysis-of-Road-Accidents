@@ -21,6 +21,12 @@ def index():
 @app.route('/card')
 def card():
     return render_template('card.html')
+@app.route('/team')
+def team():
+    return render_template('team.html')
+@app.route('/tools')
+def tools():
+    return render_template('tools.html')
 
 @app.route('/graph/1')
 def graph_1():
